@@ -16,13 +16,22 @@
   a { color: var(--accent); }
   .en { color: var(--soft); font-size: 14px; }
   nav a { margin-right: 14px; }
+  .btn { display: inline-block; margin-top: 8px; padding: 10px 18px; border-radius: 10px; background: var(--accent); color: #fff; font-weight: 600; text-decoration: none; }
+  .btn:hover { filter: brightness(1.08); }
 </style>
 </head>
 <body>
 <main>
   <h1>Arène Survivor</h1>
   <p class="sub">Crédits, licences et confidentialité · <span class="en">Credits, licenses and privacy</span></p>
-  <nav><a href="./">Jouer dans le navigateur</a><a href="#credits">Crédits</a><a href="#confidentialite">Confidentialité</a></nav>
+  <nav><a href="./">Jouer dans le navigateur</a><a href="#contact">Contact</a><a href="#credits">Crédits</a><a href="#confidentialite">Confidentialité</a></nav>
+
+  <h2 id="contact">Contact et suggestions</h2>
+  <div class="card">
+    Une idée d'amélioration, un bug, une question ? Écris-nous : <a href="mailto:sportquiz64@gmail.com">sportquiz64@gmail.com</a>
+    <span class="en">· Ideas, bugs or questions: write to us.</span><br>
+    <a class="btn" href="mailto:sportquiz64@gmail.com?subject=Ar%C3%A8ne%20Survivor%20%3A%20suggestion">Envoyer une suggestion</a>
+  </div>
 
   <h2 id="credits">Crédits et licences</h2>
   <div class="card">
